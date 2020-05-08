@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexis; Saunders | Alexis Garretson</title>
+    <link>https://alexisgarretson.github.io/author/alexis-saunders/</link>
+      <atom:link href="https://alexisgarretson.github.io/author/alexis-saunders/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alexis; Saunders</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alexis Garretson 2020</copyright><lastBuildDate>Wed, 08 Jan 2020 15:11:47 -0400</lastBuildDate>
+    <image>
+      <url>https://alexisgarretson.github.io/img/Garretson_headshot_square.jpg</url>
+      <title>Alexis; Saunders</title>
+      <link>https://alexisgarretson.github.io/author/alexis-saunders/</link>
+    </image>
+    
+    <item>
+      <title>Genome-scale data reveal the role of hybridization in lichen forming fungi</title>
+      <link>https://alexisgarretson.github.io/publication/genome-scale-data-reveal-the-role-of-hybridization-in-lichen-forming-fungi/</link>
+      <pubDate>Wed, 08 Jan 2020 15:11:47 -0400</pubDate>
+      <guid>https://alexisgarretson.github.io/publication/genome-scale-data-reveal-the-role-of-hybridization-in-lichen-forming-fungi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
