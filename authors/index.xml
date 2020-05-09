@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Alexis Garretson</title>
-    <link>https://alexis-garretson.github.io/authors/</link>
-      <atom:link href="https://alexis-garretson.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alexis-catherine.github.io/authors/</link>
+      <atom:link href="https://alexis-catherine.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alexis Garretson 2020</copyright><lastBuildDate>Fri, 08 May 2020 15:09:29 -0400</lastBuildDate>
     <image>
-      <url>https://alexis-garretson.github.io/img/Garretson_headshot_square.jpg</url>
+      <url>https://alexis-catherine.github.io/img/Garretson_headshot_square.jpg</url>
       <title>Authors</title>
-      <link>https://alexis-garretson.github.io/authors/</link>
+      <link>https://alexis-catherine.github.io/authors/</link>
     </image>
     
   </channel>
