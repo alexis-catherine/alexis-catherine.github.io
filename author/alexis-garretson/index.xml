@@ -5,24 +5,20 @@
     <link>https://alexis-catherine.github.io/author/alexis-garretson/</link>
       <atom:link href="https://alexis-catherine.github.io/author/alexis-garretson/index.xml" rel="self" type="application/rss+xml" />
     <description>Alexis Garretson</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alexis Garretson 2020</copyright><lastBuildDate>Tue, 14 Apr 2020 15:10:53 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alexis Garretson 2020</copyright><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alexis-catherine.github.io/img/Garretson_headshot_square.jpg</url>
+      <url>https://alexis-catherine.github.io/author/alexis-garretson/avatar_hu3f20c094947ec0c4bb645c33b4a1bb13_1102640_270x270_fill_q90_lanczos_center.jpg</url>
       <title>Alexis Garretson</title>
       <link>https://alexis-catherine.github.io/author/alexis-garretson/</link>
     </image>
     
     <item>
-      <title>Vernal Pool Amphibian Breeding Ecology Monitoring From 1931 to Present: a Harmonised Historical and Ongoing Observational Ecology Dataset</title>
-      <link>https://alexis-catherine.github.io/publication/vernal-pool-amphibian/</link>
-      <pubDate>Tue, 14 Apr 2020 15:10:53 -0400</pubDate>
-      <guid>https://alexis-catherine.github.io/publication/vernal-pool-amphibian/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
-hon.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>https://alexis-catherine.github.io/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexis-catherine.github.io/post/jupyter/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
