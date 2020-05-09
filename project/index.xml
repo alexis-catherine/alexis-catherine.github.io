@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Alexis Garretson</title>
-    <link>https://alexisgarretson.github.io/project/</link>
-      <atom:link href="https://alexisgarretson.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alexis-garretson.github.io/project/</link>
+      <atom:link href="https://alexis-garretson.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alexis Garretson 2020</copyright><lastBuildDate>Fri, 08 May 2020 16:53:10 -0400</lastBuildDate>
     <image>
-      <url>https://alexisgarretson.github.io/img/Garretson_headshot_square.jpg</url>
+      <url>https://alexis-garretson.github.io/img/Garretson_headshot_square.jpg</url>
       <title>Projects</title>
-      <link>https://alexisgarretson.github.io/project/</link>
+      <link>https://alexis-garretson.github.io/project/</link>
     </image>
     
     <item>
       <title>Biology Education</title>
-      <link>https://alexisgarretson.github.io/project/biology-education/</link>
+      <link>https://alexis-garretson.github.io/project/biology-education/</link>
       <pubDate>Fri, 08 May 2020 16:53:10 -0400</pubDate>
-      <guid>https://alexisgarretson.github.io/project/biology-education/</guid>
+      <guid>https://alexis-garretson.github.io/project/biology-education/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Natural History Collections</title>
-      <link>https://alexisgarretson.github.io/project/natural-history-collections/</link>
+      <link>https://alexis-garretson.github.io/project/natural-history-collections/</link>
       <pubDate>Fri, 08 May 2020 16:52:58 -0400</pubDate>
-      <guid>https://alexisgarretson.github.io/project/natural-history-collections/</guid>
+      <guid>https://alexis-garretson.github.io/project/natural-history-collections/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lichen</title>
-      <link>https://alexisgarretson.github.io/project/lichen/</link>
+      <link>https://alexis-garretson.github.io/project/lichen/</link>
       <pubDate>Fri, 08 May 2020 16:40:04 -0400</pubDate>
-      <guid>https://alexisgarretson.github.io/project/lichen/</guid>
+      <guid>https://alexis-garretson.github.io/project/lichen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Citizen Science</title>
-      <link>https://alexisgarretson.github.io/project/citizen-science/</link>
+      <link>https://alexis-garretson.github.io/project/citizen-science/</link>
       <pubDate>Fri, 08 May 2020 16:39:52 -0400</pubDate>
-      <guid>https://alexisgarretson.github.io/project/citizen-science/</guid>
+      <guid>https://alexis-garretson.github.io/project/citizen-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Phenology</title>
-      <link>https://alexisgarretson.github.io/project/phenology/</link>
+      <link>https://alexis-garretson.github.io/project/phenology/</link>
       <pubDate>Fri, 08 May 2020 16:39:44 -0400</pubDate>
-      <guid>https://alexisgarretson.github.io/project/phenology/</guid>
+      <guid>https://alexis-garretson.github.io/project/phenology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mohonk Preserve Data Publishing</title>
-      <link>https://alexisgarretson.github.io/project/mohonk-preserve-data-publishing/</link>
+      <link>https://alexis-garretson.github.io/project/mohonk-preserve-data-publishing/</link>
       <pubDate>Fri, 08 May 2020 16:38:48 -0400</pubDate>
-      <guid>https://alexisgarretson.github.io/project/mohonk-preserve-data-publishing/</guid>
+      <guid>https://alexis-garretson.github.io/project/mohonk-preserve-data-publishing/</guid>
       <description></description>
     </item>
     

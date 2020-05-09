@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Alexis Garretson</title>
-    <link>https://alexisgarretson.github.io/publication/</link>
-      <atom:link href="https://alexisgarretson.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alexis-garretson.github.io/publication/</link>
+      <atom:link href="https://alexis-garretson.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alexis Garretson 2020</copyright><lastBuildDate>Fri, 08 May 2020 15:09:29 -0400</lastBuildDate>
     <image>
-      <url>https://alexisgarretson.github.io/img/Garretson_headshot_square.jpg</url>
+      <url>https://alexis-garretson.github.io/img/Garretson_headshot_square.jpg</url>
       <title>Publications</title>
-      <link>https://alexisgarretson.github.io/publication/</link>
+      <link>https://alexis-garretson.github.io/publication/</link>
     </image>
     
     <item>
       <title>Risk Assessment for Scientific Data</title>
-      <link>https://alexisgarretson.github.io/publication/risk-assessment-for-scientific-data/</link>
+      <link>https://alexis-garretson.github.io/publication/risk-assessment-for-scientific-data/</link>
       <pubDate>Fri, 08 May 2020 15:09:29 -0400</pubDate>
-      <guid>https://alexisgarretson.github.io/publication/risk-assessment-for-scientific-data/</guid>
+      <guid>https://alexis-garretson.github.io/publication/risk-assessment-for-scientific-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vernal Pool Amphibian Breeding Ecology Monitoring From 1931 to Present: a Harmonised Historical and Ongoing Observational Ecology Dataset</title>
-      <link>https://alexisgarretson.github.io/publication/vernal-pool-amphibian-breeding-ecology-monitoring-from-1931-to-present-a-harmonised-historical-and-ongoing-observational-ecology-dataset/</link>
+      <link>https://alexis-garretson.github.io/publication/vernal-pool-amphibian/</link>
       <pubDate>Tue, 14 Apr 2020 15:10:53 -0400</pubDate>
-      <guid>https://alexisgarretson.github.io/publication/vernal-pool-amphibian-breeding-ecology-monitoring-from-1931-to-present-a-harmonised-historical-and-ongoing-observational-ecology-dataset/</guid>
+      <guid>https://alexis-garretson.github.io/publication/vernal-pool-amphibian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mohonk Preserve Amphibian and Water Quality Monitoring Dataset at 11 Vernal Pools From 1932 Present</title>
-      <link>https://alexisgarretson.github.io/publication/mohonk-preserve-amphibian-and-water-quality-monitoring-dataset-at-11-vernal-pools-from-1932-present/</link>
+      <link>https://alexis-garretson.github.io/publication/mohonk-preserve-amphibian-and-water-quality-monitoring-dataset-at-11-vernal-pools-from-1932-present/</link>
       <pubDate>Wed, 08 Apr 2020 17:28:35 -0400</pubDate>
-      <guid>https://alexisgarretson.github.io/publication/mohonk-preserve-amphibian-and-water-quality-monitoring-dataset-at-11-vernal-pools-from-1932-present/</guid>
+      <guid>https://alexis-garretson.github.io/publication/mohonk-preserve-amphibian-and-water-quality-monitoring-dataset-at-11-vernal-pools-from-1932-present/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mohonk Preserve Stream Water Quality Invasive Species and Macroinvertebrate Sampling From 2017 Present</title>
-      <link>https://alexisgarretson.github.io/publication/mohonk-preserve-stream-water-quality-invasive-species-and-macroinvertebrate-sampling-from-2017-present/</link>
+      <link>https://alexis-garretson.github.io/publication/mohonk-preserve-stream-water-quality-invasive-species-and-macroinvertebrate-sampling-from-2017-present/</link>
       <pubDate>Sun, 15 Mar 2020 15:12:31 -0400</pubDate>
-      <guid>https://alexisgarretson.github.io/publication/mohonk-preserve-stream-water-quality-invasive-species-and-macroinvertebrate-sampling-from-2017-present/</guid>
+      <guid>https://alexis-garretson.github.io/publication/mohonk-preserve-stream-water-quality-invasive-species-and-macroinvertebrate-sampling-from-2017-present/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Genome-scale data reveal the role of hybridization in lichen forming fungi</title>
-      <link>https://alexisgarretson.github.io/publication/genome-scale-data-reveal-the-role-of-hybridization-in-lichen-forming-fungi/</link>
+      <link>https://alexis-garretson.github.io/publication/genome-scale-data-reveal-the-role-of-hybridization-in-lichen-forming-fungi/</link>
       <pubDate>Wed, 08 Jan 2020 15:11:47 -0400</pubDate>
-      <guid>https://alexisgarretson.github.io/publication/genome-scale-data-reveal-the-role-of-hybridization-in-lichen-forming-fungi/</guid>
+      <guid>https://alexis-garretson.github.io/publication/genome-scale-data-reveal-the-role-of-hybridization-in-lichen-forming-fungi/</guid>
       <description></description>
     </item>
     
