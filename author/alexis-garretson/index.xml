@@ -5,12 +5,24 @@
     <link>https://alexis-catherine.github.io/author/alexis-garretson/</link>
       <atom:link href="https://alexis-catherine.github.io/author/alexis-garretson/index.xml" rel="self" type="application/rss+xml" />
     <description>Alexis Garretson</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alexis Garretson 2020</copyright><lastBuildDate>Mon, 11 May 2020 17:57:12 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alexis Garretson 2020</copyright><lastBuildDate>Tue, 12 May 2020 14:46:46 -0400</lastBuildDate>
     <image>
       <url>https://alexis-catherine.github.io/img/Garretson_headshot_square.jpg</url>
       <title>Alexis Garretson</title>
       <link>https://alexis-catherine.github.io/author/alexis-garretson/</link>
     </image>
+    
+    <item>
+      <title>National Microbiome Data Collective Champion</title>
+      <link>https://alexis-catherine.github.io/post/nmdc-champion/</link>
+      <pubDate>Tue, 12 May 2020 14:46:46 -0400</pubDate>
+      <guid>https://alexis-catherine.github.io/post/nmdc-champion/</guid>
+      <description>&lt;p&gt;Founded to support the long-term advancement of microbiome science, the National Microbiome Data Center is building an open-source, agile, integrated data system. Our scientific mission is to provide comprehensive discovery of and access to multidisciplinary microbiome data.
+NMDC Champions understand and appreciate the value of well-curated data, and are willing to advocate for the importance of FAIR microbiome data.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://microbiomedata.org/nmdc-champions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>46 Questions</title>
