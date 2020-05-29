@@ -7,8 +7,8 @@ library(tidyverse)
 library(ggraph)
 library(packcircles)
 
-place_id <- 55598
-place_name <- "Brookline Vermont"
+place_id <- 744
+place_name <- "PWC"
 
 iconic_name <- NULL
 name <- NULL

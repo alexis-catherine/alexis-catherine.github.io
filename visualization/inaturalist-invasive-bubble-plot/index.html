@@ -709,13 +709,17 @@
 <a href="bubble_plot_iNaturalist.R">downloaded here</a>:
 Change the place_id and the place_name to your place of interest. 
 Find your place ID from the iNaturalist search function, when you search your location name in the search bar, like &ldquo;Fairfax County&rdquo;, the resulting url has the place name in the url (ex. for the url <a href="https://www.inaturalist.org/observations?place_id=738">https://www.inaturalist.org/observations?place_id=738</a> the place name is 738)</p>
-<pre><code>    library(curlconverter)
+<pre><code>    #install.packages(&quot;tidyverse&quot;, &quot;devtools&quot;, &quot;ggraph&quot;, &quot;packcircles&quot;)
+    #library(devtools)
+    #devtools::install_github(&quot;hrbrmstr/curlconverter&quot;)
+
+    library(curlconverter)
     library(tidyverse)
     library(ggraph)
     library(packcircles)
 
-    place_id &lt;- 738
-    place_name &lt;- &quot;Fairfax County&quot;
+    place_id &lt;- 744
+    place_name &lt;- &quot;PWC&quot;
 
     iconic_name &lt;- NULL
     name &lt;- NULL
@@ -728,10 +732,12 @@ Find your place ID from the iNaturalist search function, when you search your lo
     for(i in 1:length(dat$results)){
        iconic_name &lt;- c(iconic_name, dat$results[[i]]$taxon$iconic_taxon_name)
        name &lt;- c(name,dat$results[[i]]$taxon$name)
-       common &lt;- c(common, dat$results[[i]]$taxon$preferred_common_name)
+       if(is.null(dat$results[[i]]$taxon$preferred_common_name)){
+         common &lt;- c(common, NA)}else{
+         common &lt;- c(common, dat$results[[i]]$taxon$preferred_common_name)}
     }
-
-    for (i in 1:floor(dat$total_results/200)){
+    if (dat$total_results &gt; 200){
+    for (i in 2:floor(dat$total_results/200)){
       api &lt;- paste(&quot;curl -X GET --header 'Accept: application/json' 'https://api.inaturalist.org/v1/observations?endemic=false&amp;geo=true&amp;introduced=true&amp;place_id='&quot;, place_id, &quot;&amp;quality_grade=research&amp;page=&quot;, i, &quot;&amp;per_page=200&amp;order=desc&amp;order_by=created_at'&quot;, sep = &quot;&quot;)
       my_ip &lt;- straighten(api) %&gt;% 
         make_req()
@@ -744,7 +750,7 @@ Find your place ID from the iNaturalist search function, when you search your lo
           common &lt;- c(common, dat$results[[j]]$taxon$preferred_common_name)}
       }
     }
-
+    }
 
 
     dat2 &lt;- dat
