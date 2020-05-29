@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexis | Alexis Garretson</title>
+    <link>https://alexis-catherine.github.io/author/alexis/</link>
+      <atom:link href="https://alexis-catherine.github.io/author/alexis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alexis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alexis Garretson 2020</copyright><lastBuildDate>Thu, 28 May 2020 23:56:57 -0400</lastBuildDate>
+    <image>
+      <url>https://alexis-catherine.github.io/img/Garretson_headshot_square.jpg</url>
+      <title>Alexis</title>
+      <link>https://alexis-catherine.github.io/author/alexis/</link>
+    </image>
+    
+    <item>
+      <title>iNaturalist Invasive Bubble Plot</title>
+      <link>https://alexis-catherine.github.io/visualization/inaturalist-invasive-bubble-plot/</link>
+      <pubDate>Thu, 28 May 2020 23:56:57 -0400</pubDate>
+      <guid>https://alexis-catherine.github.io/visualization/inaturalist-invasive-bubble-plot/</guid>
+      <description>&lt;p&gt;Code to make this figure is below and can be 
+&lt;a href=&#34;bubble_plot_iNaturalist.R&#34;&gt;downloaded here&lt;/a&gt;:
+Change the place_id and the place_name to your place of interest. 
+Find your place ID from the iNaturalist search function, when you search your location name in the search bar, like &amp;ldquo;Fairfax County&amp;rdquo;, the resulting url has the place name in the url (ex. for the url &lt;a href=&#34;https://www.inaturalist.org/observations?place_id=738&#34;&gt;https://www.inaturalist.org/observations?place_id=738&lt;/a&gt; the place name is 738)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    library(curlconverter)
+    library(tidyverse)
+    library(ggraph)
+    library(packcircles)
+
+    place_id &amp;lt;- 738
+    place_name &amp;lt;- &amp;quot;Fairfax County&amp;quot;
+
+    iconic_name &amp;lt;- NULL
+    name &amp;lt;- NULL
+    common &amp;lt;- NULL
+
+    api &amp;lt;- paste(&amp;quot;curl -X GET --header &#39;Accept: application/json&#39; &#39;https://api.inaturalist.org/v1/observations?endemic=false&amp;amp;geo=true&amp;amp;introduced=true&amp;amp;place_id=&#39;&amp;quot;, place_id, &amp;quot;&amp;amp;quality_grade=research&amp;amp;per_page=200&amp;amp;order=desc&amp;amp;order_by=created_at&#39;&amp;quot;, sep = &amp;quot;&amp;quot;)
+    my_ip &amp;lt;- straighten(api) %&amp;gt;% 
+        make_req()
+    dat &amp;lt;- content(my_ip[[1]](), as=&amp;quot;parsed&amp;quot;)
+    for(i in 1:length(dat$results)){
+       iconic_name &amp;lt;- c(iconic_name, dat$results[[i]]$taxon$iconic_taxon_name)
+       name &amp;lt;- c(name,dat$results[[i]]$taxon$name)
+       common &amp;lt;- c(common, dat$results[[i]]$taxon$preferred_common_name)
+    }
+
+    for (i in 1:floor(dat$total_results/200)){
+      api &amp;lt;- paste(&amp;quot;curl -X GET --header &#39;Accept: application/json&#39; &#39;https://api.inaturalist.org/v1/observations?endemic=false&amp;amp;geo=true&amp;amp;introduced=true&amp;amp;place_id=&#39;&amp;quot;, place_id, &amp;quot;&amp;amp;quality_grade=research&amp;amp;page=&amp;quot;, i, &amp;quot;&amp;amp;per_page=200&amp;amp;order=desc&amp;amp;order_by=created_at&#39;&amp;quot;, sep = &amp;quot;&amp;quot;)
+      my_ip &amp;lt;- straighten(api) %&amp;gt;% 
+        make_req()
+      dat &amp;lt;- content(my_ip[[1]](), as=&amp;quot;parsed&amp;quot;)
+      for(j in 1:length(dat$results)){
+        iconic_name &amp;lt;- c(iconic_name, dat$results[[j]]$taxon$iconic_taxon_name)
+        name &amp;lt;- c(name,dat$results[[j]]$taxon$name)
+        if(is.null(dat$results[[j]]$taxon$preferred_common_name)){
+          common &amp;lt;- c(common, NA)}else{
+          common &amp;lt;- c(common, dat$results[[j]]$taxon$preferred_common_name)}
+      }
+    }
+
+
+
+    dat2 &amp;lt;- dat
+    dat2 &amp;lt;- data.frame(iconic_name,name,common)
+
+    dat2 %&amp;gt;% 
+      group_by(common, iconic_name) %&amp;gt;%
+      summarise(n = n()) -&amp;gt; data
+    names(data) &amp;lt;- c(&amp;quot;group&amp;quot;, &amp;quot;iconic&amp;quot;, &amp;quot;value&amp;quot;)
+
+    packing &amp;lt;- circleProgressiveLayout(data$value, sizetype=&#39;area&#39;)
+    data &amp;lt;- cbind(data, packing)
+    dat.gg &amp;lt;- circleLayoutVertices(packing, npoints=50)
+    dat.gg$group &amp;lt;- rep(data$iconic, each = 51)
+
+    # Make the plot
+    ggplot() + 
+      # Make the bubbles
+      geom_polygon(data = dat.gg, aes(x, y, group = id, fill=as.factor(group)), colour = &amp;quot;black&amp;quot;, alpha = 0.6) +
+      # Add text in the center of each bubble + control its size
+      geom_text(data = data, aes(x, y, size=value, label = group)) +
+      scale_size_continuous(range = c(1,10), guide = F) +
+      # General theme:
+      theme_void() + 
+      theme() +
+      coord_equal() + 
+      ggtitle(paste(&amp;quot;Invasives of&amp;quot;, place_name)) +
+      scale_fill_brewer(palette=&amp;quot;Set3&amp;quot;, direction=-1) + 
+      theme(plot.title = element_text(size = 40, face = &amp;quot;bold&amp;quot;)) + 
+      labs(fill = &amp;quot;Iconic Taxon&amp;quot;) + 
+      theme(legend.text=element_text(size=20), legend.title = element_text(size=40))+
+      theme(plot.title = element_text(hjust = 0.5))
+
+    ggsave(paste(&amp;quot;invasives_of_&amp;quot;, gsub(&amp;quot; &amp;quot;, &amp;quot;_&amp;quot;, place_name), &amp;quot;.png&amp;quot;, sep = &amp;quot;&amp;quot;), height = 25, width = 25)  
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>iNaturalist Sankey Diagram</title>
+      <link>https://alexis-catherine.github.io/visualization/inaturalist-sankey-diagram/</link>
+      <pubDate>Thu, 28 May 2020 23:56:57 -0400</pubDate>
+      <guid>https://alexis-catherine.github.io/visualization/inaturalist-sankey-diagram/</guid>
+      <description>&lt;p&gt;Code to make this figure is below and can be 
+&lt;a href=&#34;api_sankey_plot.R&#34;&gt;downloaded here&lt;/a&gt;:
+Change the taxon_id and the taxon_name to your species of interest. 
+Find your taxon id from the iNaturalist search function, when you search your species name in the search bar, like &amp;ldquo;large milkweed bug&amp;rdquo;, the resulting url has the place name in the url (ex. for the url &lt;a href=&#34;https://www.inaturalist.org/observations?taxon_id=55556&#34;&gt;https://www.inaturalist.org/observations?taxon_id=55556&lt;/a&gt; the taxon id is 55556)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    #install.packages(&amp;quot;tidyverse&amp;quot;, &amp;quot;devtools&amp;quot;, &amp;quot;networkD3&amp;quot;)
+    #library(devtools)
+    #devtools::install_github(&amp;quot;hrbrmstr/curlconverter&amp;quot;)
+    library(curlconverter)
+    library(tidyverse)
+    library(networkD3)
+    taxon_id &amp;lt;- 47219
+    taxon_name &amp;lt;- &amp;quot;Apis mellifera&amp;quot;
+
+    ####API Call####
+    api &amp;lt;- paste(&amp;quot;curl -X GET --header &#39;Accept: application/json&#39; 
+     &#39;http://api.inaturalist.org/v1/identifications/similar_species?    is_change=false&amp;amp;current=true&amp;amp;order=desc&amp;amp;order_by=created_at&amp;amp;taxon_id=&amp;quot;, taxon_id, &amp;quot;&#39;&amp;quot;, sep=&amp;quot;&amp;quot;)
+    my_ip &amp;lt;- straighten(api) %&amp;gt;% 
+      make_req()
+
+    dat &amp;lt;- content(my_ip[[1]](), as=&amp;quot;parsed&amp;quot;)
+    links &amp;lt;- data.frame(target = rep(NA, dat$total_results), value = rep(NA, dat$total_results))
+    for(i in 1:dat$total_results){
+      links$target[i] &amp;lt;- dat$results[[i]]$taxon$name
+      links$value[i] &amp;lt;- dat$results[[i]]$count
+    }
+
+    ####Formatting####
+    links %&amp;gt;% 
+      separate(target, c(&amp;quot;genus&amp;quot;, &amp;quot;species&amp;quot;)) %&amp;gt;% 
+      group_by(genus) %&amp;gt;%
+      summarise(n = n(), value = sum(value)) %&amp;gt;%
+      filter(n &amp;gt; 1) %&amp;gt;% 
+      mutate(target = genus)%&amp;gt;%
+      select(-n, -genus) -&amp;gt; genera
+    genera$source &amp;lt;- rep(taxon_name, nrow(genera))
+    links$source &amp;lt;- rep(taxon_name, nrow(links))
+
+    links %&amp;gt;% 
+      separate(target, c(&amp;quot;genus&amp;quot;, &amp;quot;species&amp;quot;), remove = F) -&amp;gt; links
+    links$source[links$genus %in% genera$target] &amp;lt;- links$genus[links$genus %in% genera$target]
+    links &amp;lt;- select(links, -genus, -species)
+    links &amp;lt;- bind_rows(links, genera)
+
+    ####SANKEY####
+    nodes &amp;lt;- data.frame(
+      name=c(as.character(links$source), 
+             as.character(links$target)) %&amp;gt;% unique()
+    )
+
+    # With networkD3, connection must be provided using id, not using real name like in the links dataframe.. So we need to reformat it.
+    links$IDsource &amp;lt;- match(links$source, nodes$name)-1 
+    links$IDtarget &amp;lt;- match(links$target, nodes$name)-1
+
+    # Add a &#39;group&#39; column to each node. Here I decide to put all of them in the same group to make them grey
+    nodes$group &amp;lt;- as.factor(c(&amp;quot;my_unique_group&amp;quot;))
+
+    # Make the Network
+    p &amp;lt;- sankeyNetwork(Links = links,
+                       Nodes = nodes,
+                       Source = &amp;quot;IDsource&amp;quot;,
+                       Target = &amp;quot;IDtarget&amp;quot;,
+                       Value = &amp;quot;value&amp;quot;,
+                       NodeID = &amp;quot;name&amp;quot;, 
+                       sinksRight=F,
+                       fontSize = 20,
+                       iterations = 23,
+                       nodeWidth = 5)
+    ggsave(paste(gsub(&amp;quot; &amp;quot;, &amp;quot;_&amp;quot;,taxon_name), &amp;quot;sankey_plot.png&amp;quot;), p, height = 10, width = 10)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
