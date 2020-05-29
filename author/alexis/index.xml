@@ -89,14 +89,14 @@ Find your place ID from the iNaturalist search function, when you search your lo
       theme_void() + 
       theme() +
       coord_equal() + 
-      ggtitle(paste(&amp;quot;Invasives of&amp;quot;, place_name)) +
+      ggtitle(paste(&amp;quot;Introduced Species of&amp;quot;, place_name)) +
       scale_fill_brewer(palette=&amp;quot;Set3&amp;quot;, direction=-1) + 
       theme(plot.title = element_text(size = 40, face = &amp;quot;bold&amp;quot;)) + 
       labs(fill = &amp;quot;Iconic Taxon&amp;quot;) + 
       theme(legend.text=element_text(size=20), legend.title = element_text(size=40))+
       theme(plot.title = element_text(hjust = 0.5))
 
-    ggsave(paste(&amp;quot;invasives_of_&amp;quot;, gsub(&amp;quot; &amp;quot;, &amp;quot;_&amp;quot;, place_name), &amp;quot;.png&amp;quot;, sep = &amp;quot;&amp;quot;), height = 25, width = 25)  
+    ggsave(paste(&amp;quot;introduced_species_of_&amp;quot;, gsub(&amp;quot; &amp;quot;, &amp;quot;_&amp;quot;, place_name), &amp;quot;.png&amp;quot;, sep = &amp;quot;&amp;quot;), height = 25, width = 25)  
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
