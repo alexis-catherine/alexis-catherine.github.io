@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>In the Media | Alexis Garretson</title>
+    <title>Updates | Alexis Garretson</title>
     <link>https://alexis-catherine.github.io/post/</link>
       <atom:link href="https://alexis-catherine.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>In the Media</description>
+    <description>Updates</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alexis Garretson 2020</copyright><lastBuildDate>Sun, 26 Jul 2020 16:52:02 -0400</lastBuildDate>
     <image>
       <url>https://alexis-catherine.github.io/img/Garretson_headshot_square.jpg</url>
-      <title>In the Media</title>
+      <title>Updates</title>
       <link>https://alexis-catherine.github.io/post/</link>
     </image>
     
