@@ -5,12 +5,52 @@
     <link>https://alexis-catherine.github.io/publication/</link>
       <atom:link href="https://alexis-catherine.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alexis Garretson 2021</copyright><lastBuildDate>Tue, 08 Dec 2020 15:09:29 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alexis Garretson 2021</copyright><lastBuildDate>Tue, 14 Dec 2021 22:02:39 -0400</lastBuildDate>
     <image>
       <url>https://alexis-catherine.github.io/img/Garretson_headshot_square.jpg</url>
       <title>Publications</title>
       <link>https://alexis-catherine.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Translational Science Education Through Citizen Science</title>
+      <link>https://alexis-catherine.github.io/publication/translational-science-education/</link>
+      <pubDate>Tue, 14 Dec 2021 22:02:39 -0400</pubDate>
+      <guid>https://alexis-catherine.github.io/publication/translational-science-education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Herbaria Reveal Herbivory and Pathogen Increases and Shifts in Senescence for Northeastern United States Maples Over 150 Years</title>
+      <link>https://alexis-catherine.github.io/publication/herbarium-maple/</link>
+      <pubDate>Tue, 30 Nov 2021 22:02:39 -0400</pubDate>
+      <guid>https://alexis-catherine.github.io/publication/herbarium-maple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moths and Frogs and E. coli, Oh My!: Agent-based Modeling of Evolutionary Systems</title>
+      <link>https://alexis-catherine.github.io/publication/agent-based-modeling-evolution/</link>
+      <pubDate>Wed, 03 Nov 2021 22:02:39 -0400</pubDate>
+      <guid>https://alexis-catherine.github.io/publication/agent-based-modeling-evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alt Text in Twitter Job Postings are an Underutilized Tool to Support Accessibility</title>
+      <link>https://alexis-catherine.github.io/publication/twitter-alt-text/</link>
+      <pubDate>Thu, 21 Oct 2021 22:02:39 -0400</pubDate>
+      <guid>https://alexis-catherine.github.io/publication/twitter-alt-text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Citizen Science Can Improve Visitor Experiences and Research Outcomes in Museums and Cultural Institutions</title>
+      <link>https://alexis-catherine.github.io/publication/mcn-chapter/</link>
+      <pubDate>Wed, 26 May 2021 22:02:39 -0400</pubDate>
+      <guid>https://alexis-catherine.github.io/publication/mcn-chapter/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Pan trap color preference across Hymenoptera in a forest clearing</title>
@@ -89,6 +129,14 @@
       <link>https://alexis-catherine.github.io/publication/genome-scale-data-reveal-the-role-of-hybridization-in-lichen-forming-fungi/</link>
       <pubDate>Wed, 08 Jan 2020 15:11:47 -0400</pubDate>
       <guid>https://alexis-catherine.github.io/publication/genome-scale-data-reveal-the-role-of-hybridization-in-lichen-forming-fungi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Institutional Differences in the Stewardship and Research Output of United States Herbaria</title>
+      <link>https://alexis-catherine.github.io/publication/institutional-differences/</link>
+      <pubDate>Tue, 07 Jan 2020 22:02:39 -0400</pubDate>
+      <guid>https://alexis-catherine.github.io/publication/institutional-differences/</guid>
       <description></description>
     </item>
     
