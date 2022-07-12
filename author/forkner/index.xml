@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forkner | Alexis Garretson</title>
+    <link>https://alexis-catherine.github.io/author/forkner/</link>
+      <atom:link href="https://alexis-catherine.github.io/author/forkner/index.xml" rel="self" type="application/rss+xml" />
+    <description>Forkner</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alexis Garretson 2022</copyright><lastBuildDate>Mon, 11 Jul 2022 22:02:39 -0400</lastBuildDate>
+    <image>
+      <url>https://alexis-catherine.github.io/img/Garretson_headshot_square.jpg</url>
+      <title>Forkner</title>
+      <link>https://alexis-catherine.github.io/author/forkner/</link>
+    </image>
+    
+    <item>
+      <title>Networks of Phenological Synchrony Reveal a Highly Interconnected Ecosystem and Potential Vulnerability to Climate-Driven Mismatches</title>
+      <link>https://alexis-catherine.github.io/publication/phenological-networks/</link>
+      <pubDate>Mon, 11 Jul 2022 22:02:39 -0400</pubDate>
+      <guid>https://alexis-catherine.github.io/publication/phenological-networks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
