@@ -28,4 +28,4 @@ image:
 projects: [Mohonk-Preserve-Data-Publishing, Natural-History-Collections]
 ---
 ESIP Community Fellow and M.S. student, Alexis Garretson, reflects on her summer fellowship with the Environmental Data Initiative, an ESIP Partner Organization, and how the Data-at-Risk Matrix in development by the ESIP Data Stewardship Committee aided her in this work.
-[Check it out!](https://www.esipfed.org/student-fellow-blog/edi-fellowship-2019)
+[Check it out:](https://www.esipfed.org/student-fellow-blog/edi-fellowship-2019)

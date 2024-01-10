@@ -5,7 +5,7 @@ title: "46 Questions"
 subtitle: ""
 summary: "I'm excited to be highlighted by 46 Questions for Scientists!"
 authors: [Alexis Garretson]
-tags: []
+tags: [dei]
 categories: [Media-Coverage]
 date: 2020-05-11T17:57:12-04:00
 lastmod: 2020-05-11T17:57:12-04:00

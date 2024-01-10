@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Awarded a FUNding Friday Grant from ESIP"
+title: "Summer Graduate Internship at the Joint Genome Institute"
 subtitle: ""
-summary: "Awarded a small grant to support the development of a tool to improve citizen science"
-authors: []
+summary: "I learned about working with single cell data and creating reproducible workflows"
+authors: [Alexis Garretson]
 tags: []
 categories: []
-date: 2020-07-26T16:50:33-04:00
-lastmod: 2020-07-26T16:50:33-04:00
+date: 2023-06-11
+publishDate: 2024-01-01
 featured: false
 draft: false
 
@@ -25,6 +25,10 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [Community-Science]
+projects: []
 ---
-Improve provenance tracking, return of results, data credit & attribution, and equity through Columba. Identifies citizen scientists to claim their observations across multiple projects and generates list of research outputs enabled by their work. I'm excited to bring this project to life!
+
+
+<br>
+<br>
+During a really fantastic summer graduate internship at the Joint Genome Institute at Lawrence Berkeley National Lab, mentored by Dr. Sharon Greenblum, I learned about processing single-cell RNA seq (scRNA-seq) data and writing standardized workflows. I specifically worked on integrating data from diverse organisms and using that data to understand shared developmental and biological processes.
