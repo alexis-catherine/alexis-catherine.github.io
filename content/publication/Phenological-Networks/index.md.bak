@@ -1,0 +1,70 @@
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: "Networks of Phenological Synchrony Reveal a Highly Interconnected Ecosystem and Potential Vulnerability to Climate-Driven Mismatches"
+authors: [Garretson, Alexis,  Feldsine, N., Napoli, M.,  Long, E., Forkner, R]
+date: 2022-07-11T22:02:39-04:00
+doi: ""
+
+# Schedule page publish date (NOT publication's date).
+publishDate: 2022-07-11T22:02:39-04:00
+
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ["2"]
+
+# Publication name and optional abbreviated publication name.
+publication: "bioRxiv"
+publication_short: ""
+
+abstract: "As anthropogenic climate change alters species' phenology, phenological shifts may cascade to disrupt species interactions to impact ecosystem functioning. We present a 108-year phenology dataset of 8,840 event dates for 251 phenophases for seven amphibian species, 58 birds, 14 insects, and 163 plant species, including 52 species introduced to New York. The dataset was collected at a single location in the Northeastern United States, providing continuity in monitoring since the early 1900s. We show that linear phenology analyses can underestimate the magnitude of phenological shift relative to circular methods, particularly for species experiencing extreme advancements. However, species phenologies are generally advancing, with faster advancements of insects and amphibians compared to birds and plants. Additionally, in our dataset, species with event dates later in the year are advancing more rapidly than species earlier in the year, and this relationship is stronger for animals than for plants. We present a novel, network-based approach for visualizing community and ecosystem-scale phenological synchrony. Using this approach, we find a high degree of synchrony between the monitored species, and this approach reveals that plants are more central in the phenological network, as well as species with phenological events earlier in the year. While many synchronous species are shifting at relatively similar rates and display similar temperature sensitivities, we highlight two species interactions potentially vulnerable to changing climate: Eastern Tent Caterpillars and Monarchs. Our results illustrate the utility of long-term ecological monitoring for investigating ecosystem responses to climate change and identifying potentially vulnerable phenological networks."
+
+# Summary. An optional shortened abstract.
+summary: "We present more than 100-years of phenological data"
+
+tags: []
+categories: []
+featured: false
+
+# Custom links (optional).
+#   Uncomment and edit lines below to show custom links.
+# links:
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
+
+url_pdf: 
+url_code:
+url_dataset:
+url_poster: 
+url_project:
+url_slides: 
+url_source: 
+url_video:
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: [Phenology]
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: ""
+---
+[Explore the network!](/files/network.md)
