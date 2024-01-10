@@ -7,7 +7,7 @@ summary: "News feature of our Anecdata.org project tracking at-home COVID tests"
 authors: []
 tags: []
 categories: []
-date: 2022-05-2416:52:02-04:00
+date: 2022-05-24T16:52:02-04:00
 lastmod: 2022-06-11T16:52:02-04:00
 featured: false
 draft: false
