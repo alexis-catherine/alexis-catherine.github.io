@@ -16,6 +16,9 @@ main:
   - name: Publications
     url: 'publication/'
     weight: 10
+  - name: Updates
+    url: 'post/'
+    weight: 70
   - name: Data Packages
     url: 'data-packages/'
     weight: 35
