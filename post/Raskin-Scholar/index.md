@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "ESIP Community Fellows Blog"
+title: "2023 Raskin Scholar"
 subtitle: ""
-summary: "My work is highlighted on the ESIP Community Fellows Blog"
+summary: ""
 authors: [Alexis Garretson]
 tags: []
-categories: []
-date: 2019-09-19T18:02:49-04:00
-lastmod: 2020-05-11T18:02:49-04:00
+categories: [Media-Coverage]
+date: 2023-07-11T17:57:12-04:00
+lastmod: 2023-08-12T17:57:12-04:00
 featured: false
 draft: false
 
@@ -25,7 +25,10 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [Mohonk-Preserve-Data-Publishing, Natural-History-Collections]
+projects: []
 ---
-ESIP Community Fellow and M.S. student, Alexis Garretson, reflects on her summer fellowship with the Environmental Data Initiative, an ESIP Partner Organization, and how the Data-at-Risk Matrix in development by the ESIP Data Stewardship Committee aided her in this work.
-[Check it out:](https://www.esipfed.org/student-fellow-blog/edi-fellowship-2019)
+
+I am beyond honored to be this year's Raskin Scholar. Earth Science Information Partners (ESIP) has awarded the 2023 Robert G. Raskin Scholarship to Alexis Garretson, a graduate student at Tufts University and The Jackson Laboratory as well as a data scientist for Anecdata.org. The scholarship is given annually to an outstanding student who helps bridge disciplines through Earth science data and computing.
+<br>
+<br>
+[Check it out](https://www.esipfed.org/news/raskin-scholar-2023-alexis-garretson)

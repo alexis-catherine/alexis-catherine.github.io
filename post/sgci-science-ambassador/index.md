@@ -25,7 +25,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: [data-stewardship]
 ---
 SGCI has launched a new program to create a network of representatives who would like to share information about gateways on their campuses, in their organizations, and in distributed projects. Gateway Ambassadors serve as community builders, making connections and creating a network between people, experts, and resources.
  

@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Awarded a FUNding Friday Grant from ESIP"
+title: "Tufts Institute of the Environment Fellowship"
 subtitle: ""
-summary: "Awarded a small grant to support the development of a tool to improve citizen science"
-authors: []
+summary: "I was selected as an honorable mention for the 2022 Ford Foundation Predoctoral Fellowship"
+authors: [Alexis Garretson]
 tags: []
-categories: []
-date: 2020-07-26T16:50:33-04:00
-lastmod: 2020-07-26T16:50:33-04:00
+categories: [Media-Coverage]
+date: 2022-08-12T17:57:12-04:00
+lastmod: 2022-06-12T17:57:12-04:00
 featured: false
 draft: false
 
@@ -25,6 +25,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [Community-Science]
+projects: [science-accessibility]
 ---
-Improve provenance tracking, return of results, data credit & attribution, and equity through Columba. Identifies citizen scientists to claim their observations across multiple projects and generates list of research outputs enabled by their work. I'm excited to bring this project to life!
+
+I was honored to be an honorable mention for the 2022 Predoctoral Ford Foundation Fellowship. This recognition further motivates my committment to fostering diversity in the sciences both in and out of the classroom. 

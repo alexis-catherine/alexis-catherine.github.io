@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Natural History Collections"
+title: "Data Stewardship"
 summary: ""
 authors: []
-tags: [data, ecology]
+tags: [data]
 categories: []
 date: 2020-05-08T16:52:58-04:00
 
@@ -39,5 +39,3 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-<br>
-<br>

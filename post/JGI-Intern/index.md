@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "ESIP Community Fellows Blog"
+title: "Summer Graduate Internship at the Joint Genome Institute"
 subtitle: ""
-summary: "My work is highlighted on the ESIP Community Fellows Blog"
+summary: "I learned about working with single cell data and creating reproducible workflows"
 authors: [Alexis Garretson]
 tags: []
-categories: []
-date: 2019-09-19T18:02:49-04:00
-lastmod: 2020-05-11T18:02:49-04:00
+categories: [Media-Coverage]
+date: 2023-06-11T17:57:12-04:00
+lastmod: 2023-08-12T17:57:12-04:00
 featured: false
 draft: false
 
@@ -25,7 +25,10 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [Mohonk-Preserve-Data-Publishing, Natural-History-Collections]
+projects: []
 ---
-ESIP Community Fellow and M.S. student, Alexis Garretson, reflects on her summer fellowship with the Environmental Data Initiative, an ESIP Partner Organization, and how the Data-at-Risk Matrix in development by the ESIP Data Stewardship Committee aided her in this work.
-[Check it out:](https://www.esipfed.org/student-fellow-blog/edi-fellowship-2019)
+
+
+<br>
+<br>
+During a really fantastic summer graduate internship at the Joint Genome Institute at Lawrence Berkeley National Lab, mentored by Dr. Sharon Greenblum, I learned about processing single-cell RNA seq (scRNA-seq) data and writing standardized workflows. I specifically worked on integrating data from diverse organisms and using that data to understand shared developmental and biological processes.

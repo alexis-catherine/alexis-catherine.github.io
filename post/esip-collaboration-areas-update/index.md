@@ -25,7 +25,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: [community-science, data-stewardship]
 ---
  
 ESIP is home to 30+ vibrant and diverse community-driven collaboration areas centered around Earth science data challenges and opportunities. Several collaboration areas will share lightning presentations about their recent activities and efforts to increase the use and value of Earth Science data. This webinar aims to broaden awareness of ESIP collaboration area activities, increase communication and collaboration between existing collaboration areas, and invite new participants to join. 
