@@ -40,4 +40,3 @@ url_video: ""
 slides: ""
 ---
 <br>
-<br>

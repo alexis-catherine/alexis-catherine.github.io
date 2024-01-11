@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Mohonk Preserve Added to GBIF"
+title: "CEHL and Anecdata Data Added to GBIF"
 subtitle: ""
 summary: "Our data will now be available to users around the world."
 authors: []
