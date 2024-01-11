@@ -26,7 +26,7 @@ summary: "We discuss the potential roles of hybridization in terms of generating
 
 tags: [genomics, bioinformatics, lichen]
 categories: []
-featured: true
+featured: false
 
 url_pdf: https://www.nature.com/articles/s41598-020-58279-x.pdf
 url_code:

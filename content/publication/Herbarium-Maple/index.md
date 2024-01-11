@@ -26,7 +26,7 @@ summary: "We find significant changes in the timing fall color change using herb
 
 tags: []
 categories: []
-featured: true
+featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
