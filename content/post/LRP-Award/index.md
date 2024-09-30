@@ -28,7 +28,7 @@ image:
 projects: [Infertility-and-Reproduction, Comparative-Reproductive-Biology]
 ---
 
-I am honored to have recently received funding through the NIH Loan Repayment Program (LRP) under the Contraception and Infertility Research (CIR) category. This program is designed to recruit and retain highly qualified health professionals in biomedical or biobehavioral research careers. Through the NIH LRP, I will receive up to $50,000 annually to repay my educational debt in exchange for my commitment to conducting NIH mission-relevant research on infertility and contraception.
+I am honored to have recently received funding through the NIH Loan Repayment Program (LRP) under the Contraception and Infertility Research (CIR) category. This program is designed to recruit and retain highly qualified health professionals in biomedical or biobehavioral research careers. Through the NIH LRP, I will receive support to repay my educational debt in exchange for my commitment to conducting NIH mission-relevant research on infertility and contraception.
 
 The objective of the LRP-CIR is to support researchers investigating conditions related to infertility and new methods of contraception. The program’s long-term goals are to advance our understanding of infertility treatment and to innovate pregnancy prevention strategies, providing improved reproductive health solutions.
 
