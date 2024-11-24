@@ -3,11 +3,11 @@
 
 title: "Reproductive genomics of the mouse: implications for human fertility and infertility"
 authors: [Alexis Garretson, Beth L. Dumont, Mary Ann Handel]
-date: 2023-02-13
+date: 2023-13-02T15:11:47-04:00
 doi: "10.1242/dev.201313"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2023-08-05
+publishDate: 2023-05-08T15:11:47-04:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

@@ -10,6 +10,25 @@ appearance:
   theme_night: minimal
   font: minimal
   font_size: L
+
+# SEO
+
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: 'Alexis Garretson is a researcher focused on data science, genomics, and bioinformatics.'
+    twitter: 
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+    google_tag_manager: ''
+    microsoft_clarity: ''
+  verification:
+    google: ''
+    baidu: ''
+
 # Site header
 
 header:
