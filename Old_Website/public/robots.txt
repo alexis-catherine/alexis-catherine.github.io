@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://alexis-catherine.github.io/sitemap.xml
