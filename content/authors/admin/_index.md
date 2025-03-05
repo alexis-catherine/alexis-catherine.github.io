@@ -117,6 +117,11 @@ awards:
 
 ## About Me
 
-I am a Doctoral Candidate in the Tufts University and The Jackson Laboratory joint program in Mammalian Genetics and a National Science Foundation Graduate Research Fellow. My PhD research in the [Dumont Lab](https://www.jax.org/research-and-faculty/research-labs/the-dumont-lab) uses genetically diverse mice to investigate mutation rate variation and its relationship to infertility and reproductive health. 
 
-Before starting my PhD, I completed a Master’s degree in Evolutionary Biology at George Mason University, where I investigated the impacts of climate change on plant and insect reproductive timing. Beyond research, I am dedicated to bioinformatics education, serving as an instructor with The Carpentries and contributing to university-level data science curricula.
+I am a Doctoral Candidate at the Tufts University and The Jackson Laboratory joint program in Mammalian Genetics and an ACM SIGHPC Computational & Data Science Fellow. My Ph.D. research in the [Dumont Lab](https://www.jax.org/research-and-faculty/research-labs/the-dumont-lab) focuses on using genetically diverse mice and bioinformatics approaches to produce high-quality estimates of mutation rate variation in populations and relate this molecular phenotype to infertility and reproductive health. I previously completed a M.S. degree in Evolutionary Biology at George Mason University with [Dr. Rebecca Forkner](https://science.gmu.edu/directory/rebecca-forkner) using community science and herbarium specimens to investigate the impacts of climate change on the timing of plant and insect reproductive phenology. 
+<br>
+<br>
+I am also involved in bioinformatics and data science education as an instructor with The Carpentries and through developing university data science curricula.
+<br>
+
+{{% staticref "files/Garretson_CV.pdf" %}}Download my CV{{% /staticref %}}.
