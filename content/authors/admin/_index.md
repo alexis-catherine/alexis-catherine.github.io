@@ -122,6 +122,3 @@ I am a Doctoral Candidate at the Tufts University and The Jackson Laboratory joi
 <br>
 <br>
 I am also involved in bioinformatics and data science education as an instructor with The Carpentries and through developing university data science curricula.
-<br>
-
-{{% staticref "files/Garretson_CV.pdf" %}}Download my CV{{% /staticref %}}.
